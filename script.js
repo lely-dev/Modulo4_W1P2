@@ -41,23 +41,25 @@ function cardMusic (json){
 
     let containerCard = document.getElementById("container_card");
 
-    for (let i = 0; i < json.data[6]; i++) {
-        let cardImage = document.createElement("img");
-        cardImage.src = element.album.cover;
-        
-        
-        containerCard.appendChild(cardImage);
-        console.log(json.data[6]);
-    }
-
-    // json.data.forEach(element => {
+    // for (let i = 0; i < json.data[6]; i++) {
     //     let cardImage = document.createElement("img");
     //     cardImage.src = element.album.cover;
         
         
     //     containerCard.appendChild(cardImage);
-    //     console.log(element);
-    // });
+    //     console.log(json.data[6]);
+    // }
+
+    json.data.forEach(element => {
+
+        let cardImage = document.createElement("img");
+        cardImage.src = element.album.cover;
+     
+    
+        
+        
+        containerCard.appendChild(cardImage);
+    });
 
     
     
