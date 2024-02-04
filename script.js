@@ -54,6 +54,7 @@ function cardMusic (json){
 
         let cardImage = document.createElement("img");
         cardImage.src = element.album.cover;
+        cardImage.classList.add("img_card");
      
     
         

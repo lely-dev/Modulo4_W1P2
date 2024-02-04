@@ -229,3 +229,20 @@ ul {
 .mainPage img {
   width: 200px;
 }
+
+
+/* CARD */
+
+#musicCard{
+  padding-top: 40px;
+}
+
+#artista{
+  color: white;
+}
+
+.img_card{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+}
